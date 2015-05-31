@@ -1,10 +1,10 @@
 require 'bundler/setup'
-
 Bundler.setup(:default, :extra)
 
 require 'coveralls'
 Coveralls.wear!
 
+require 'pry'
 require 'cellcom'
 
 RSpec.configure do |config|
